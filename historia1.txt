@@ -15,7 +15,20 @@ git reset(#comint) --soft =nos permite volver  a una version anterior del archiv
 git log --stat= muestra los cambio especificos en todos los archivos.
 git checkout (numero de commit) nombre del archivo de regreso = muetra y regresa a como era el archivo en ese momento del commit.
 git checkout (master nombre del archivo de regreso)=regresa al archivo actual.
+<!-- branch -->
+git branch -> muestra todas las ramas
+git branch $nombreDeLaNuevaRama -> crea un branch nuevos
+git checkout $nombreDeBranch -> Cambia de branch
+git merch $nombreDeBranch -> fuciona dos ramas
 
+<!-- comandos para traer data del repositorio remoto -->
+git fetch -> descarga un estado del repositorio remoto al repositorio local
+git merge -> ejecuta en los archivos de un repositorio local
+git pull -> descarga un estado del repositorio remoto al repositorio local y a los archivos (osea combina un fetch y un merge)
+
+<!-- comandos para ver estados -->
+git status -> muestra el estado del commit antes de enviarse
+git log -> muestra un registro de los commits ejecutados
 
 
 
