@@ -5,3 +5,5 @@ git config --list=muestra toda la configuracion por defecto
 git config --list --show-origin=muetra dnd estan las configuraciones guardadas
 git --config --global user.name=esto cambiara todos los usuarios globales (el nombre va entre comillas dobles)
 git --config --global user.email=aca colocamos el correo electronico en cmillas dobles
+git log (nombre del archivo)=muestra el historial de commit
+git show(nombre del archivo)=muestra los cambios q se efectuaron en el archivo.
