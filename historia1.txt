@@ -22,9 +22,9 @@ git checkout $nombreDeBranch -> Cambia de branch
 git merch $nombreDeBranch -> fuciona dos ramas
 
 <!-- comandos para traer data del repositorio remoto -->
-git fetch -> descarga un estado del repositorio remoto al repositorio local
-git merge -> ejecuta en los archivos de un repositorio local
-git pull -> descarga un estado del repositorio remoto al repositorio local y a los archivos (osea combina un fetch y un merge)
+git fetch -> descarga y actualiza un estado del repositorio remoto al repositorio local pero no al directorio de trabajo.
+git merge -> deacarga y actualiza  los archivos en el directorio de trabajo .
+git pull -> descarga y actualiza un estado del repositorio remoto al repositorio local y a los archivos(directorio de trabajo) (osea combina un fetch y un merge)
 
 <!-- comandos para ver estados -->
 git status -> muestra el estado del commit antes de enviarse
