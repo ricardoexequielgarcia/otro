@@ -12,3 +12,10 @@ git diff =muestra las diferencias entre 2 archivos.
 hay 2 tipos de reset hard (duro) y  soft(sueve):
 git reset(#comint) --hard =nos permite volver todo a una version anterior del archivo(colocando el numero de comint)borra todo el archivo y vuelve al comit anterior.
 git reset(#comint) --soft =nos permite volver  a una version anterior del archivo pero conservando staying area(colocando el numero de comint)
+git log --stat= muestra los cambio especificos en todos los archivos.
+git checkout (numero de commit) nombre del archivo de regreso = muetra y regresa a como era el archivo en ese momento del commit.
+git checkout (master nombre del archivo de regreso)=regresa al archivo actual.
+
+
+
+
