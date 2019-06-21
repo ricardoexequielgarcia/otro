@@ -1,1 +1,7 @@
-esta es tu hermanan en bola putooo
+configuracion de git
+
+git config=muestra todas las configuraciones de git
+git config --list=muestra toda la configuracion por defecto
+git config --list --show-origin=muetra dnd estan las configuraciones guardadas
+git --config --global user.name=esto cambiara todos los usuarios globales (el nombre va entre comillas dobles)
+git --config --global user.email=aca colocamos el correo electronico en cmillas dobles
