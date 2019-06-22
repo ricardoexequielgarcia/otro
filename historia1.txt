@@ -28,7 +28,8 @@ git pull -> descarga y actualiza un estado del repositorio remoto al repositorio
 
 <!-- comandos para ver estados -->
 git status -> muestra el estado del commit antes de enviarse
-git log -> muestra un registro de los commits ejecutados
+git log -> muestra un registro de los commits 
+git commit -am=esto  hace un git add . de un archivo ya existente.
 
 
 
