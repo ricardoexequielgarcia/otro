@@ -31,5 +31,19 @@ git status -> muestra el estado del commit antes de enviarse
 git log -> muestra un registro de los commits 
 git commit -am =  esto  hace un git add . de un archivo ya existente.
 
+GitHub
+blame=muestra quienes a generado commit
+git pull  origin master --allow-unrelated-histories = sirve para forzar el merges
 
+Crear una llave ssh
+ssh-keygen -t rsa -b 4096 -C "deangelisricardoexequiel@gmail.com"= especifica que algoritmo de cifrado vamos a usar en este caso rsa y -su complejidad e email.
 
+revisando el servidor de ssh  en windows
+
+eval $(ssh-agent -s) = nos deber entretgar Agent pid 2528 significa q el proceso esta corriendo.
+
+$ ssh-add ~/.ssh/id_rsa = agrega mi llave ssh privada a mi  repo.
+
+~ =es nuetro home.
+
+$ git remote set-url  origin git@github.com:RicardoDeAngelis/hyperblog.git= cambiar la url del repo.
