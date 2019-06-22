@@ -19,7 +19,7 @@ git checkout (master nombre del archivo de regreso)=regresa al archivo actual.
 git branch -> muestra todas las ramas
 git branch $nombreDeLaNuevaRama -> crea un branch nuevos
 git checkout $nombreDeBranch -> Cambia de branch
-git merch $nombreDeBranch -> fuciona dos ramas
+git merge $nombreDeBranch -> fuciona dos ramas
 
 <!-- comandos para traer data del repositorio remoto -->
 git fetch -> descarga y actualiza un estado del repositorio remoto al repositorio local pero no al directorio de trabajo.
