@@ -1,5 +1,5 @@
 configuracion de git
-
+hola soy exequiel
 git init para inicializar
 git config=muestra todas las configuraciones de git
 git config --list=muestra toda la configuracion por defecto
