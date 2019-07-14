@@ -1,5 +1,5 @@
 configuracion de git
-hola soy exequiel
+hola soy exequiel desde otra pc
 git init para inicializar
 git config=muestra todas las configuraciones de git
 git config --list=muestra toda la configuracion por defecto
@@ -28,7 +28,7 @@ git pull -> descarga y actualiza un estado del repositorio remoto al repositorio
 
 <!-- comandos para ver estados -->
 git status -> muestra el estado del commit antes de enviarse
-git log -> muestra un registro de los commits 
+git log -> muestra un registro de los commits
 git commit -am =  esto  hace un git add . de un archivo ya existente.
 
 GitHub
